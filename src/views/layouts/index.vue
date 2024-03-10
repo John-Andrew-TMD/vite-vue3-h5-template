@@ -1,5 +1,5 @@
 <script setup lang="ts">
-// import { useRoute } from 'vue-router'
+import { useRoute } from 'vue-router'
 import { ITabList } from '@/components/TabBar.vue'
 import { reactive, watch, ref } from 'vue'
 // 测试husky
