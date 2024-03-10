@@ -3,14 +3,16 @@
 // Read more: https://github.com/vuejs/vue-next/pull/3399
 
 declare module 'vue' {
-  export interface GlobalComponents {
-    IconCommunity: typeof import('./components/icons/IconCommunity.vue')['default']
-    IconDocumentation: typeof import('./components/icons/IconDocumentation.vue')['default']
-    IconEcosystem: typeof import('./components/icons/IconEcosystem.vue')['default']
-    IconSupport: typeof import('./components/icons/IconSupport.vue')['default']
-    IconTooling: typeof import('./components/icons/IconTooling.vue')['default']
-    TabBar: typeof import('./components/TabBar.vue')['default']
-  }
+	export interface GlobalComponents {
+		IconCommunity: typeof import('./components/icons/IconCommunity.vue')['default']
+		IconDocumentation: typeof import('./components/icons/IconDocumentation.vue')['default']
+		IconEcosystem: typeof import('./components/icons/IconEcosystem.vue')['default']
+		IconSupport: typeof import('./components/icons/IconSupport.vue')['default']
+		IconTooling: typeof import('./components/icons/IconTooling.vue')['default']
+		TabBar: typeof import('./components/TabBar.vue')['default']
+		VanTabbar: typeof import('vant/es')['Tabbar']
+		VanTabbarItem: typeof import('vant/es')['TabbarItem']
+	}
 }
 
-export { }
+export {}
